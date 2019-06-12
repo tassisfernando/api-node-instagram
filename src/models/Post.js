@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-//criando um esquema do Post no mongoDB
+//representação da tabela Post no BD
 const PostSchema = new mongoose.Schema({
     author: String,
     place: String,
